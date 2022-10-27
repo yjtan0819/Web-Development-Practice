@@ -9,10 +9,14 @@
     <body>
         <h1>My Contact Details</h1>
         <p>My email address is <a href="mailto:tan.yijia0819@gmail.com">tan.yijia0819@gmail.com</a></p>
-        <form action="">
-            <label>Your Name</label>
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="password" name="" value="">
+        <form action="mailto:tan.yijia0819@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value="">
+            <br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><br>
+            <label>Your Message:</label><br>
+            <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
             <input type="submit" name="">
         </form>
     </body>
